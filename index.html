@@ -39,6 +39,13 @@ li {
 	text-transform: capitalize;
 }
 
+.weather-app-wrapper {
+  max-width: 500px;
+  margin: 0px auto;
+  color: palevioletred;
+  display: block;
+}
+
 .weather-app-border {
 	border: 1px solid palevioletred;
 	padding: 15px;
@@ -136,12 +143,7 @@ a:hover {
 	color:#fff;
 }
 
-#by-me {
-	display: block;
-	margin: 20px auto;
-	padding-left: 360px;
-	color: palevioletred;
-}
+
 	
 </style>
 
@@ -150,6 +152,7 @@ a:hover {
 <body>
 	
 	<div class="container">	
+	<div class="weather-app-wrapper">
 	<div class="weather-app-border">
 		<form id="seach-form">
 				<div class="row">
@@ -205,6 +208,7 @@ a:hover {
           >
           by Yuliya Gradobyk
         </small>
+		</div>
 <!-- Script -->
 	<script>
 	
